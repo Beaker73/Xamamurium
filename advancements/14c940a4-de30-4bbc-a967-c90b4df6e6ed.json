@@ -1,13 +1,7 @@
 {
-  "xama:mirror": {
-    "criteria": {
-      "inside_bedroom": "2020-01-02 16:39:21 +0100"
-    },
-    "done": true
-  },
   "xama:root": {
     "criteria": {
-      "spawned": "2020-01-02 16:35:40 +0100"
+      "spawned": "2020-01-02 22:06:47 +0100"
     },
     "done": true
   },
