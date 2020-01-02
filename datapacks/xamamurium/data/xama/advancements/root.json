@@ -12,26 +12,15 @@
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": false,
-		"hidden": false,
+		"hidden": true,
 		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
 	},
 	"criteria": {
-		"spawned": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"dimension": "overworld",
-				"position": {
-					"x": {
-						"min": -8,
-						"max": 1
-					},
-					"y": 65,
-					"z": {
-						"min": 3,
-						"max": 8
-					}
-				}
-			}
+		"ring_phone": {
+			"trigger": "minecraft:tick"
 		}
+	},
+	"rewards": {
+		"function": "xama:ringing_phone"
 	}
 }

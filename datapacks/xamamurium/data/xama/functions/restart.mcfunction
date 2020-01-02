@@ -3,6 +3,9 @@ clear @s
 tp @s -6 65 7 -90 0
 advancement revoke @s everything
 
+# reset - phone
+scoreboard players set @s phone 0
+
 # reset - shattering escape
 scoreboard players set @s throw 0
 tag @s remove throw

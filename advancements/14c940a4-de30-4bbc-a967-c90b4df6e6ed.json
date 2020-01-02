@@ -1,39 +1,3 @@
 {
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2020-01-02 22:42:57 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
-    "criteria": {
-      "has_log": "2020-01-02 22:42:57 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2020-01-02 22:42:57 +0100"
-    },
-    "done": true
-  },
-  "xama:root": {
-    "criteria": {
-      "spawned": "2020-01-02 22:06:47 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
-    "criteria": {
-      "has_logs": "2020-01-02 22:42:57 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2020-01-02 22:42:57 +0100"
-    },
-    "done": true
-  },
   "DataVersion": 2227
 }
