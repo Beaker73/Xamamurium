@@ -1,0 +1,37 @@
+{
+	"display": {
+		"title": {
+			"text": "Mirror, Mirror on the wall"
+		},
+		"description": {
+			"text": "Used the mirror to find the hidden entrance"
+		},
+		"icon": {
+            "item": "minecraft:gray_stained_glass_pane"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "xama:root",
+	"criteria": {
+		"inside_bedroom": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "overworld",
+				"position": {
+					"x": {
+						"min": -8,
+						"max": -6
+					},
+					"y": 65,
+					"z": {
+						"min": -5,
+						"max": 1
+					}
+				}
+			}
+		}
+	}
+}
