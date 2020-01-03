@@ -1,0 +1,1 @@
+execute as @a run function xama:player_tick

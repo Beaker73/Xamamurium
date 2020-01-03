@@ -17,10 +17,10 @@
 	},
 	"criteria": {
 		"ring_phone": {
-			"trigger": "minecraft:tick"
+			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "xama:ringing_phone"
+		"function": "xama:phone_answered"
 	}
 }

@@ -17,10 +17,7 @@
     "parent": "xama:root",
     "criteria": {
         "throw_stone": {
-            "trigger": "minecraft:tick"
+            "trigger": "minecraft:impossible"
         }
-	},
-	"rewards": {
-		"function": "xama:shattering_escape"
 	}
 }
