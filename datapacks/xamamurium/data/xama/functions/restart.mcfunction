@@ -36,6 +36,8 @@ fill -6 66 9 -6 67 9 minecraft:glass_pane[east=true,west=true]
 scoreboard players set @s engine 0
 setblock -14 65 6 minecraft:jungle_trapdoor[open=true,facing=east,half=top]
 setblock -14 65 7 minecraft:jungle_trapdoor[open=true,facing=east,half=top]
+setblock -18 65 8 minecraft:oak_door[facing=north,open=false,hinge=right]
+setblock -18 65 5 minecraft:oak_door[facing=south,open=false,hinge=left]
 
 # other global setup (disabled while in dev since startup calls restart)
 # function xama:startup

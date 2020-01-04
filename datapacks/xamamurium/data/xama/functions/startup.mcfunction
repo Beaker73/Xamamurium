@@ -1,5 +1,8 @@
 tellraw @a "startup"
 
+# generic counter, that can be used by any process, as long as they cannot active at the same time.
+scoreboard objectives add counter dummy
+
 # stone trowing scoreboard
 scoreboard objectives add throw minecraft.dropped:stone
 
