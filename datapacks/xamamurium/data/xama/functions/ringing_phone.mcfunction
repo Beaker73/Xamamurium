@@ -11,17 +11,17 @@ execute if entity @p[nbt={Inventory:[{id:"minecraft:player_head"}]}] run tag @s 
 
 # dialog
 execute if entity @s[scores={phone=120}, tag=pickup] run tellraw @s [{"text":"[Director on Phone] ", "color":"red"}, {"text":"Hello!", "color":"white"}]
-execute if entity @s[scores={phone=120}, tag=pickup] run playsound minecraft:entity.villager.celebrate ambient @s
+execute if entity @s[scores={phone=120}, tag=pickup] run playsound minecraft:entity.villager.celebrate voice @s
 
 execute if entity @s[scores={phone=220}, tag=pickup] run tellraw @s [{"text":"[Director on Phone] ", "color":"red"}, {"text":"We have a small issue with the portal you build.", "color":"white"}]
-execute if entity @s[scores={phone=220}, tag=pickup] run playsound minecraft:entity.villager.trade ambient @s
-execute if entity @s[scores={phone=230}, tag=pickup] run playsound minecraft:entity.villager.no ambient @s
-execute if entity @s[scores={phone=240}, tag=pickup] run playsound minecraft:entity.villager.celebrate ambient @s
+execute if entity @s[scores={phone=220}, tag=pickup] run playsound minecraft:entity.villager.trade voice @s
+execute if entity @s[scores={phone=230}, tag=pickup] run playsound minecraft:entity.villager.no voice @s
+execute if entity @s[scores={phone=240}, tag=pickup] run playsound minecraft:entity.villager.celebrate voice @s
 
 execute if entity @s[scores={phone=320}, tag=pickup] run tellraw @s [{"text":"[Director on Phone] ", "color":"red"}, {"text":"Come directly to the office, only you can fix it.", "color":"white"}]
-execute if entity @s[scores={phone=320}, tag=pickup] run playsound minecraft:entity.villager.no ambient @s
-execute if entity @s[scores={phone=330}, tag=pickup] run playsound minecraft:entity.villager.trade ambient @s
-execute if entity @s[scores={phone=340}, tag=pickup] run playsound minecraft:entity.villager.celebrate ambient @s
+execute if entity @s[scores={phone=320}, tag=pickup] run playsound minecraft:entity.villager.no voice @s
+execute if entity @s[scores={phone=330}, tag=pickup] run playsound minecraft:entity.villager.trade voice @s
+execute if entity @s[scores={phone=340}, tag=pickup] run playsound minecraft:entity.villager.celebrate voice @s
 
 # advancement
 execute if entity @s[scores={phone=350..}, tag=pickup] run advancement grant @s only xama:root
